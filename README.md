@@ -17,7 +17,9 @@ should have encountered all these ideas before now, but we're going to give a
 quick summary of what the rest of this module assumes you know.
 
 Be sure to take time to experiment or read up on a concept if you're not too
-comfortable with the idea.
+comfortable with the idea. We also recommend that you take on the lab as you
+read through the sections. Reinforcing what you read with what you know how to
+type will make sure the concepts are locked in.
 
 ## Define a Function Using Function Declaration
 
@@ -62,6 +64,11 @@ function razzle(lawyer="Billy", target="'em") {
 razzle() //=> Billy razzle-dazzles 'em!
 razzle("Methuselah", "T'challah") //=> Methuselah razzle-dazzles T'challah!
 ```
+
+**LAB**: Implement a method called `saturdayFun`. It should return a `String` like
+`"This Saturday, I want to ....!"` Fill in the `...` with the activity that's
+passed in as the first parameter. If nothing is passed in, default to
+`"roller-skate"`.
 
 ## Define the Term Hoisting
 
@@ -134,6 +141,11 @@ expressions are not hoisted.*** Since we assign these expressions to variables,
 we'd expect things to operate in the same way they do when we assign a `String`
 to a variable or the result of an arithmetic expression to a variable. Those
 assignments are not hoisted, thus neither is a function expression.
+
+**LAB**: Implement a method called `mondayWork`. It should return a `String` like
+`"This Monday, I will ... ."` Fill in the `...` with the activity that's
+passed in as the first parameter. If nothing is passed in, default to
+`"go to the office"`.
 
 ## Define the Term "Anonymous Function"
 
@@ -271,6 +283,14 @@ answer() //=> 5
 console.log(`The base was ${theBase()}`)
 // OUTPUT: The base was 3
 ```
+
+**LAB**: Implement a method called `wrapAdjective`. It should take as parameter
+a `String` that will be used to create visual pizzazz. It should default to
+`"*"`. The `wrapAdjective` should return a function.  The returned function (or
+"inner function") should take a single parameter that should default to
+`"special"`. The inner function should return a `String` of the form `"You are
+..."`. The `...` should be the argument that was passed in to this inner
+function (or the default).
 
 ## Conclusion
 
