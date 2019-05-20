@@ -166,7 +166,7 @@ function() {
 
 Unlike a ***function declaration***, there's no function name in front of the
 `()`. Since anonymous means, "without a name," this function is called,
-sensibly enough, an anonymous function***.
+sensibly enough, an anonymous function.
 
 ## Define an IIFE: Instantly-Invoked Function Expression
 
